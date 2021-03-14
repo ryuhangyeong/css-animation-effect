@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff9b00;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto; /* 중앙 정렬 */
+  background-color: #fff;
+  /* position: relative; */
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: #555;
+  transform: translateY(-50%);
+}
