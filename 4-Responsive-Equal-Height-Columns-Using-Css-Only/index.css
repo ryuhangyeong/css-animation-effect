@@ -1,0 +1,24 @@
+body {
+  background-color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+.container .box {
+  /* 수평 중앙 정렬 */
+  width: 600px;
+  margin: 140px auto;
+  background-color: #fff;
+  display: table;
+}
+
+.container .box .box-row {
+  display: table-row;
+}
+
+.container .box .box-row .box-cell {
+  display: table-cell;
+  width: 25%;
+  padding: 20px;
+  font-family: 'arial';
+}
