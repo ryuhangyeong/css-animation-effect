@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#8 - 3D 텍스트](https://ryuhangyeong.github.io/css-animation-effect/8-3D-Text-Using-Css/)
 - [#7 - 마우스 호버시 텍스트 기울기](https://ryuhangyeong.github.io/css-animation-effect/7-Skew-Text-On-Hover/)
 - [#6 - CSS 이미지 오버레이 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/6-Css-Image-Overlay-Hover-Effects/)
 - [#5 - CSS 로딩 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/5-Css-Loading-Animation/)
