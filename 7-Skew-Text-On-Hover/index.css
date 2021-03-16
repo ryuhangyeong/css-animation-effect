@@ -1,0 +1,46 @@
+body {
+  background-color: #ff90b3;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  margin: 250px 300px;
+  text-align: center;
+  transition: 0.5s;
+  font-size: 0;
+}
+
+.text span {
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.text:hover span:nth-child(1) {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.text:hover span:nth-child(odd) {
+  transform: skewY(-15deg);
+  color: #b5b5b5;
+  box-shadow: 0 60px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text:hover span:nth-child(even) {
+  transform: skewY(15deg);
+  color: #b5b5b5;
+  box-shadow: 0 60px 20px rgba(0, 0, 0, 0.1), inset 0px 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.text:hover {
+  transform: rotateX(35deg);
+}

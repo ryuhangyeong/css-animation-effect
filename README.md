@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#7 - 마우스 호버시 텍스트 기울기](https://ryuhangyeong.github.io/css-animation-effect/7-Skew-Text-On-Hover/)
 - [#6 - CSS 이미지 오버레이 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/6-Css-Image-Overlay-Hover-Effects/)
 - [#5 - CSS 로딩 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/5-Css-Loading-Animation/)
 - [#4 - 단지 CSS만으로 컨텐츠 길이와 상관없이 동등한 높이를 가지는 반응형 요소](https://ryuhangyeong.github.io/css-animation-effect/4-Equal-Height-Columns-Using-Css-Only/)
