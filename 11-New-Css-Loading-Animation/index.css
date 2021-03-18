@@ -1,0 +1,72 @@
+body {
+  background-color: #10135a;
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader span {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  animation: animate 2s infinite;
+}
+
+.loader span:nth-child(1) {
+  animation-delay: 0;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loader span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.loader span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.loader span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.loader span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.loader h1 {
+  font-family: arial;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes animate {
+  0% {
+    border: 1px solid #fff;
+    background-color: transparent;
+    transform: translateY(0);
+  }
+
+  50% {
+    border: 1px solid #fff;
+    background-color: red;
+    transform: translateY(-25px);
+  }
+
+  100% {
+    border: 1px solid #fff;
+    background-color: yellow;
+    transform: translateY(0);
+  }
+}
