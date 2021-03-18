@@ -1,0 +1,62 @@
+body {
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  height: 100vh;
+}
+
+.cardBox {
+  /* 원근법 표현 */
+  perspective: 500px;
+  margin: 15px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  transform-style: preserve-3d;
+  transition: 0.5s ease;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.facebook {
+  background-color: blue;
+}
+
+.google {
+  background-color: red;
+}
+
+.naver {
+  background-color: green;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front {
+  font-size: 40px;
+}
+
+.card-back {
+  font-size: 30px;
+  transform: rotateY(180deg);
+}
+
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
