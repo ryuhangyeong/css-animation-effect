@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: bgLoad infinite 5s;
+}
+
+.container {
+  width: 50%;
+  background-color: #fff;
+  margin: 280px auto;
+  padding: 20px 40px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Loading {
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background-color: #f1f1f1;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.Loading::after {
+  content: "";
+  display: block;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  animation: load infinite 5s;
+}
+
+@keyframes load {
+  0% {
+    width: 0%;
+    background-color: #f00;
+  }
+  50% {
+    width: 70%;
+    background-color: #00f;
+  }
+  50% {
+    width: 100%;
+    background-color: #0f0;
+  }
+}
+
+@keyframes bgLoad {
+  0% {
+    background-color: #f00;
+  }
+  50% {
+    background-color: #00f;
+  }
+  50% {
+    background-color: #0f0;
+  }
+}
