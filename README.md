@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#14 - 확대 / 축소 효과가있는 멋진 상자](https://ryuhangyeong.github.io/css-animation-effect/14-Fancy-Box-With-Zoom-Effect/)
 - [#13 - 변환되는 햄버거 메뉴](https://ryuhangyeong.github.io/css-animation-effect/13-Transforming-Hamburger-Menu/)
 - [#12 - 슬라이드 이미지 호버시 위로 끌어올려짐](https://ryuhangyeong.github.io/css-animation-effect/12-Slide-Image-On-Hover-Css-Effect/)
 - [#11 - 새로운 형태의 CSS 로딩 애니메이션(위 아래로 스무스하게 움직임 효과)](https://ryuhangyeong.github.io/css-animation-effect/11-New-Css-Loading-Animation/)
