@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#16 - 아이콘을 사용한 소셜 로그인 버튼](https://ryuhangyeong.github.io/css-animation-effect/16-How-To-Add-Social-Media-Icons/)
 - [#15 - 배경 화면이 변경되는 진행 로딩바](https://ryuhangyeong.github.io/css-animation-effect/15-Loading-Progress-Bar/)
 - [#14 - 확대 / 축소 효과가있는 멋진 상자](https://ryuhangyeong.github.io/css-animation-effect/14-Fancy-Box-With-Zoom-Effect/)
 - [#13 - 변환되는 햄버거 메뉴](https://ryuhangyeong.github.io/css-animation-effect/13-Transforming-Hamburger-Menu/)
