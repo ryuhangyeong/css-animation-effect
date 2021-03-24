@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: bgColor infinite 20s;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 4em;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@keyframes bgColor {
+  0% {
+    background-color: #343a40;
+  }
+  20% {
+    background-color: #e03131;
+  }
+  40% {
+    background-color: #c2255c;
+  }
+  60% {
+    background-color: #9c36b5;
+  }
+  80% {
+    background-color: #6741d9;
+  }
+  100% {
+    background-color: #3b5bdb;
+  }
+}
