@@ -1,0 +1,72 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.main h1 {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  line-height: 200px;
+  font-size: 3em;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+/*
+    top 말그대로 위에 숨겨진 영역
+    front 보이는 영역
+ */
+.main .top,
+.main .front {
+  width: 100%;
+  /* height: 100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease-in-out;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.main .top {
+  background-color: #e22927;
+  color: #fff;
+  transform: rotateX(90deg) translateY(-50%);
+  transform-origin: top center;
+}
+
+.main:hover .top {
+  transform: rotateX(0deg) translateY(0%);
+}
+
+.main .front {
+  background-color: #fff;
+  color: #e22927;
+  transform-origin: bottom center;
+  transform: rotateX(0deg) translateY(0%);
+}
+
+.main:hover .front {
+  transform: rotateX(90deg) translateY(50%);
+}
+
+/* .test {
+  font-size: 150px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(50%);
+} */
