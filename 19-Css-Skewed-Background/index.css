@@ -7,7 +7,7 @@ body {
 .skewedBox {
   background-color: #edff57;
   padding: 100px 0;
-  transform: skewY(-10deg) translateY(-120px);
+  transform: skewY(-10deg) translateY(-200px);
 }
 
 .container {
