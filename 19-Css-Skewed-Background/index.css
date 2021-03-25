@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+}
+
+.skewedBox {
+  background-color: #edff57;
+  padding: 100px 0;
+  transform: skewY(-10deg) translateY(-120px);
+}
+
+.container {
+  padding: 150px 200px;
+  transform: skewY(10deg);
+  font-family: arial;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.container p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.sec2 {
+  padding: 0 200px 150px;
+  color: #fff;
+  font-family: arial;
+  text-align: right;
+}
+
+.sec2 h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.sec2 p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
