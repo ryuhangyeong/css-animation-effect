@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#24 - 흐림 텍스트](https://ryuhangyeong.github.io/css-animation-effect/24-How-To-Blur-Text/)
 - [#23 - CSS 헥사곤](https://ryuhangyeong.github.io/css-animation-effect/23-Create-Hexagon-Using-Css/)
 - [#22 - 사용자 정의 그림자 만들기](https://ryuhangyeong.github.io/css-animation-effect/22-How-To-Make-Custom-Box-Shadow/)
 - [#21 - DIV 포인터](https://ryuhangyeong.github.io/css-animation-effect/21-How-To-Create-Div-Pointer/)

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+body {
+  background: #262626;
+}
+
+.container {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2em;
+  font-family: arial;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container img:hover,
+.container h1:hover {
+  filter: blur(10px);
+}
