@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#26 - 페이드인 텍스트 애니메이션 로딩](https://ryuhangyeong.github.io/css-animation-effect/26-Loading-Fade-In-Text-Animation/)
 - [#25 - 하트 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/25-How-To-Create-Animated-Css-Heart/)
 - [#24 - 흐림 텍스트](https://ryuhangyeong.github.io/css-animation-effect/24-How-To-Blur-Text/)
 - [#23 - CSS 헥사곤](https://ryuhangyeong.github.io/css-animation-effect/23-Create-Hexagon-Using-Css/)
