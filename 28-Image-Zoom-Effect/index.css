@@ -1,0 +1,23 @@
+body {
+  background-color: #1c363e;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.container img {
+  transition: all 0.5s ease-in-out;
+}
+
+.container:hover img {
+  transform: scale(1.5);
+}
