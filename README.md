@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#31 - 3D 텍스트 점핑 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/31-Css-3D-Text-Jumping-Animation/)
 - [#30 - 회전하는 원형 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/30-Rotate-Circle-Animation/)
 - [#29 - 사각형과 원형 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/29-Square-And-Circle-Animation/)
 - [#28 - 이미지 줌 효과](https://ryuhangyeong.github.io/css-animation-effect/28-Image-Zoom-Effect/)
