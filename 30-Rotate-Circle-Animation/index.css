@@ -61,13 +61,3 @@ ul li:nth-child(7) {
   background-color: black;
   animation-delay: 6s;
 }
-
-ul li:nth-child(8) {
-  background-color: azure;
-  animation-delay: 7s;
-}
-
-ul li:nth-child(9) {
-  background-color: blueviolet;
-  animation-delay: 8s;
-}
