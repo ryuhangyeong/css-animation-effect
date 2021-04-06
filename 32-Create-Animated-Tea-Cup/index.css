@@ -1,0 +1,114 @@
+body {
+  background-color: #3a0000;
+  margin: 0;
+  padding: 0;
+}
+
+.cup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 160px;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* 컵 입구 */
+.cup::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c16d31;
+  border: 7px solid #fff;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 컵 받침대 */
+.cup::after {
+  content: "";
+  position: absolute;
+  top: 48%;
+  right: -50px;
+  width: 80px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 12px solid #fff;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+}
+
+/* 접시 */
+.plate {
+  width: 250px;
+  height: 30px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  background-color: #fff;
+  position: absolute;
+  top: 161px;
+  transform: translateX(-50px);
+}
+
+/* 연기 */
+ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -50px;
+  transform: translateX(10%);
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  width: 2px;
+  height: 40px;
+  background-color: #fff;
+  float: left;
+  margin: 10px;
+  animation: animate 2s infinite linear;
+  filter: blur(3px);
+}
+
+ul li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+ul li:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+ul li:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+ul li:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+ul li:nth-child(5) {
+  animation-delay: 0.2s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(3px);
+  }
+  100% {
+    transform: translateY(-80px);
+    opacity: 0;
+    filter: blur(5px);
+  }
+}

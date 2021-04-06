@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#32 - CSS로 애니메이션 티컵 만들기](https://ryuhangyeong.github.io/css-animation-effect/32-Create-Animated-Tea-Cup/)
 - [#31 - 3D 텍스트 점핑 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/31-Css-3D-Text-Jumping-Animation/)
 - [#30 - 회전하는 원형 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/30-Rotate-Circle-Animation/)
 - [#29 - 사각형과 원형 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/29-Square-And-Circle-Animation/)
