@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#34 - CSS 비스듬한 배경](https://ryuhangyeong.github.io/css-animation-effect/34-Css-Skewed-Background/)
 - [#33 - CSS 호버 아이콘 효과](https://ryuhangyeong.github.io/css-animation-effect/33-Css-Icon-Hover-Effect/)
 - [#32 - CSS로 애니메이션 티컵 만들기](https://ryuhangyeong.github.io/css-animation-effect/32-Create-Animated-Tea-Cup/)
 - [#31 - 3D 텍스트 점핑 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/31-Css-3D-Text-Jumping-Animation/)
