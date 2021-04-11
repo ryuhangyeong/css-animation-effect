@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.sec1,
+.sec2,
+.sec3 {
+  height: 400px;
+  width: 100%;
+}
+
+.sec1 {
+  background-color: #262626;
+  position: relative;
+}
+
+.sec2 {
+  background-color: #ffeb3b;
+  position: relative;
+}
+
+.sec3 {
+  background-color: #262626;
+  position: relative;
+}
+
+.sec2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 100px solid #ffeb3b;
+  border-left: 100vw solid transparent;
+  top: -100px;
+}
+
+.sec2::after {
+  content: "";
+  position: absolute;
+  border-top: 100px solid #ffeb3b;
+  border-right: 100vw solid transparent;
+  bottom: -100px;
+  z-index: 1;
+}
