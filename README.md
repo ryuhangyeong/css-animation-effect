@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#40 - 회색조 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/40-Grayscale-Hover-Effect/)
 - [#39 - 이미지 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/39-Css-Image-Hover-Effect/)
 - [#38 - CSS 기울기 배경을 Border로](https://ryuhangyeong.github.io/css-animation-effect/38-Skewed-Background-Using-Border/)
 - [#37 - CSS 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/37-Css-Hover-Effect/)
