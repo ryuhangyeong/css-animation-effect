@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: arial;
+  font-weight: 700;
+  font-size: 12em;
+  text-align: center;
+  margin: 250px auto;
+  text-transform: uppercase;
+  background: url(https://via.placeholder.com/1000x1000/green);
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
