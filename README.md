@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#43 - CSS로 만드는 화살표](https://ryuhangyeong.github.io/css-animation-effect/43-Create-Arrow-With-Css/)
 - [#42 - 클립 마스킹](https://ryuhangyeong.github.io/css-animation-effect/42-Clip-Masking-In-Css/)
 - [#41 - 박스 내부 미끄러지는 공](https://ryuhangyeong.github.io/css-animation-effect/41-Sliding-Ball-Insibe-Box/)
 - [#40 - 회색조 호버 효과](https://ryuhangyeong.github.io/css-animation-effect/40-Grayscale-Hover-Effect/)

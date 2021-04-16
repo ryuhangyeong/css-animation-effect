@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 280px 0 0 500px;
+  background-color: #6d0000;
+}
+
+.left,
+.right {
+  width: 100px;
+  height: 100px;
+  transition: 0.5s;
+  float: left;
+  box-shadow: -2px 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+.left {
+  transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(225deg);
+}
+
+.left:hover,
+.right:hover {
+  box-shadow: -2px 2px 0 rgba(255, 255, 255, 1);
+}
