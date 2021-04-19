@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 0;
+  font-size: 24px;
+  font-family: arial;
+  text-decoration: none;
+  color: #262626;
+  border-top: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  letter-spacing: 15px;
+}
