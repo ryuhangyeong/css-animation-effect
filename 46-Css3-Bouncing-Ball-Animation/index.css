@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ball {
+  width: 50px;
+  border-top: 25px solid #f00;
+  border-bottom: 25px solid #000;
+  border-radius: 50%;
+  animation: bounce 1s infinite linear;
+}
+
+.shadow {
+  position: absolute;
+  top: 40p;
+  left: 0;
+  width: 50px;
+  height: 10px;
+  background-color: #262626;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: shadow 1s infinite linear;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-200px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(0.4);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
