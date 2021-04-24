@@ -2,6 +2,7 @@
 
 ## 목록
 
+- [#47 - 그림자 효과를 사용한 애니메이션](https://ryuhangyeong.github.io/css-animation-effect/47-Animation-Using-Box-Shadow/)
 - [#46 - 튕기는 공 효과](https://ryuhangyeong.github.io/css-animation-effect/46-Css3-Bouncing-Ball-Animation/)
 - [#45 - 신축성 호버 버튼 효과](https://ryuhangyeong.github.io/css-animation-effect/45-Stretchable-Button-Hover-Effect/)
 - [#44 - 3D 호버 메뉴 효과](https://ryuhangyeong.github.io/css-animation-effect/44-Css3-3d-Menu-Hover-Effect/)
